@@ -9,12 +9,12 @@
 	display: block;
 }
 #container::before {
-    content: 'Before Content';
+    content: 'Before Element';
     margin-bottom: 10px; /* Space between before content and main content */
 	color: #f00;
 }
 #container:After{
-	content:"After Content";
+	content:"After Element";
 	margin-top:10px;
 	color: #f00;
 }
